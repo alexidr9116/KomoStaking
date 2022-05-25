@@ -74,7 +74,7 @@ export default function TokenStaking() {
 
                         {PORTFOLIOS.map((portofolio, index) => (
                             <div key ={index} className="flex flex-col md:flex-row w-full  border-b border-white p-2 items-center gap-2">
-                                <div className="flex justify-between items-center gap-2 w-full">
+                                <div className="flex justify-between  gap-2 w-full">
                                     <Stack>
                                         <Typography sx={{ fontSize: "0.7rem" }}>{portofolio.durationKey}</Typography>
                                         <Typography  >{portofolio.durationValue}</Typography>
@@ -87,7 +87,7 @@ export default function TokenStaking() {
                                         <Typography  sx={{ fontSize: "0.7rem" }}>{portofolio.apyKey}</Typography>
                                         <Typography  >{portofolio.apyValue}</Typography>
                                     </Stack>
-                                    <Stack>
+                                    <Stack >
                                         <Typography  sx={{ fontSize: "0.7rem" }}>{portofolio.rewardKey}</Typography>
                                         <Typography  >{portofolio.rewardValue}</Typography>
                                     </Stack>
