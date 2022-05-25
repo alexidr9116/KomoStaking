@@ -4,7 +4,7 @@ export default function TabMenu({ routers = [] }) {
     const navigate = useNavigate();
     const { pathname } = useLocation();
     return (
-        <div className="flex w-full gap-4">
+        <div className="w-full gap-4 hidden sm:flex">
             {
                 routers.map((router, index) => (
                     <Link to={router.path} key={index}>

@@ -7,7 +7,7 @@ import Header from "./Header";
 export default function ClientLayout() {
 
     return (
-        <main className='min-h-screen overflow-hidden relative bg-bg-1 text-white'>
+        <main className='min-h-screen overflow-hidden  bg-bg-1 text-white'>
             <Header />
             <Outlet />
             <Footer />
